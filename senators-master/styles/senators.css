@@ -1,0 +1,67 @@
+.text-redUSA{
+
+    color: #b42710;
+}
+
+.text-blueUSA{
+    color: #0d385b;
+}
+
+
+
+
+
+#myBtn {
+    position: fixed;
+    height: 50px;
+    width: 90px;
+    right: -100px;
+    bottom: 80px;
+    background: #e8f0f7;
+    transition: right 0.5s;
+    background-image: url("../images/Icon_Back_to_Top_Blue.png");
+    background-size: 45px;
+    background-position: 2px;
+    background-repeat: no-repeat;
+    padding: 0 0 0 45px;
+    border-radius: 25px 0 0 25px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+#myBtn.stuck {
+    right: 0;
+}
+#myBtn {
+    z-index: 2000000003;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+#header{
+    padding-top: 200 px;
+    font-size: 250%;
+}
+
+.bgRedUSA{
+background-color: #b42710   ;
+}
+
+.centrado{
+    position: relative;
+    
+    left: 10% ;
+    background-color: #b42710;
+    border: none;
+      
+
+}
